@@ -90,8 +90,8 @@
         },
         
         clearFormatting: function(e) {
-          e.preventDefault();
-          document.execCommand('removeFormat', false, null);
+            e.preventDefault();
+            document.execCommand('removeFormat', false, null);
         },
         
         toggleBold: function(e) {
